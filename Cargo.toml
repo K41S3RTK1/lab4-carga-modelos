@@ -1,0 +1,8 @@
+[package]
+name = "lab4_carga_modelos"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+image = { version = "0.25", default-features = false, features = ["png"] }
+raylib = { version = "6.0.0", features = ["SUPPORT_IMAGE_GENERATION"] }
